@@ -21,7 +21,7 @@ from scipy import stats
 # -----------------------------------------------------------------
 # 1. Load and prepare data
 # -----------------------------------------------------------------
-df = pd.read_excel('Dataset_Project.xls')
+df = pd.read_excel('dataset_housing.xls')
 df.columns = ['year', 'age', 'neighborhood', 'dist_cbd', 'dist_interstate',
               'rooms', 'sqft_house', 'sqft_lot', 'bathrooms', 'sellingprice']
 df = df.dropna()
